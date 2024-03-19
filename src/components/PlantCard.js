@@ -43,7 +43,12 @@ function PlantCard({ plant, updatePlant, deletePlant }) {
       ) : (
         <button onClick={() => setInStock(!inStock)}>Out of Stock</button>
       )}
-      <button onClick={() => deletePlant(plant)}>DELETE</button>
+      <button
+        style={{ backgroundColor: "#e396ff", color: "white" }}
+        onClick={() => deletePlant(plant)}
+      >
+        Delete
+      </button>
       {/*Advanced deliverable deletebutton with deleteplant function passed down */}
     </li>
   );

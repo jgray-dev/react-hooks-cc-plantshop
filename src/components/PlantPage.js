@@ -25,6 +25,7 @@ function PlantPage({ URL }) {
     }).then(() => rerenderPlants()); // Re-render our frontend
   }
 
+  // This does not feel like the correct method, but I'm unsure how to get my state to update/re-render the frontend without it
   function rerenderPlants() {
     // Dummy function to be called whenever modifying plants - refreshes our frontend
     fetch(URL)

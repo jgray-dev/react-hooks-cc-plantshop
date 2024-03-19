@@ -3,7 +3,7 @@ import Header from "./Header";
 import PlantPage from "./PlantPage";
 
 function App() {
-  const URL = "http://localhost:4000/plants"; // CHANGE TO URL JSON-SERVER IS RUNNING ON
+  const URL = "http://67.164.191.36:4000/plants"; // CHANGE TO URL JSON-SERVER IS RUNNING ON
   return (
     <div className="app">
       <Header />
